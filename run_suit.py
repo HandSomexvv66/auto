@@ -13,6 +13,5 @@ try:
                                  description='v10')
 
 except Exception as e :
-    print('错误走这里')
     print(e)
     logging.info(e)
