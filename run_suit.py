@@ -15,6 +15,6 @@ suit.addTest(unittest.makeSuite(HRM_employee_01))
 # BeautifulReport(suit).report(filename='/rep.html',log_path= path1+'/report',
 #                              description='v10')
 
-with open(path1+'/report/rep.html','wb') as f:
+with open(path1+'/report/repp.html','wb') as f:
     runner =HTMLTestRunner.HTMLTestRunner(f,title='text1', description='老子的报告')
     runner.run(suit)
