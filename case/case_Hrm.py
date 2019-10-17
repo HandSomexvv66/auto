@@ -2,7 +2,7 @@
 import unittest
 import requests
 from api.api1 import api_hrm
-from app import TOkne
+
 
 
 class HRM_employee_02(unittest.TestCase):
