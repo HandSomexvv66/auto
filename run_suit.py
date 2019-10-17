@@ -10,7 +10,7 @@ try:
     suit = unittest.TestSuite()
     suit.addTest(unittest.makeSuite(HRM_employee_01))
     BeautifulReport(suit).report(filename='/rep.html',log_path= path1+'/report',
-                                 description='报告')
+                                 description='v10')
 
 except Exception as e :
     print('错误走这里')
