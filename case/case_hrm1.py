@@ -2,7 +2,6 @@
 import unittest
 import requests
 from api.api1 import api_hrm
-import pymysql
 
 
 class HRM_employee_01(unittest.TestCase):
@@ -36,7 +35,6 @@ class HRM_employee_01(unittest.TestCase):
     def test_2_select(self):
         response = self.api.select_api(self.session, HRM_employee_01.id1, HRM_employee_01.token)
         print(response.json())
-
 
     def test_3_undate(self):
         response = self.api.update_api(self.session, HRM_employee_01.id1, HRM_employee_01.token)
