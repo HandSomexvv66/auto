@@ -11,7 +11,9 @@ try:
     suit.addTest(unittest.makeSuite(HRM_employee_01))
 
 
-    BeautifulReport(suit).report(filename='/{}.html'.format(time.strftime('%H%M%S'),log_path= path1+'/report'),
+    # BeautifulReport(suit).report(filename='/{}.html'.format(time.strftime('%H%M%S'),log_path= path1+'/report'),
+    #                              description='报告')
+    BeautifulReport(suit).report(filename='/rep.html',log_path= path1+'/report',
                                  description='报告')
 
 except Exception as e :
