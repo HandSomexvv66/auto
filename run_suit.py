@@ -9,7 +9,6 @@ log()
 try:
     suit = unittest.TestSuite()
     suit.addTest(unittest.makeSuite(HRM_employee_01))
-    print('大')
 
     # BeautifulReport(suit).report(filename='/{}.html'.format(time.strftime('%H%M%S'),log_path= path1+'/report'),
     #                              description='报告')
